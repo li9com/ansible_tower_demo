@@ -4,4 +4,5 @@
   gather_facts: false
   tasks:
   - debug: msg="It works 2"
+  - debug: var=myvar
   
