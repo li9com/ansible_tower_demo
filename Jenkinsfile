@@ -7,7 +7,7 @@ node {
   }
 
   stage("AnsibleTowerStage") {
-ansibleTower credential: '', extraVars: '''
+ansibleTower credential: '', extraVars: '''---
 artemii_password: sdfsdf
 artemii_username: dsfsdfdf
 url: http://yandex.ru
