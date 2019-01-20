@@ -5,4 +5,5 @@
   tasks:
   - debug: msg="It works 2"
   - debug: var=myvar
+  - debug: var=IP
   

@@ -5,4 +5,7 @@
   tasks:
   - debug: msg="It works 1"
   - debug: var=myvar
+  - set_stats:
+      data:
+        IP: 10.20.30.40
   
